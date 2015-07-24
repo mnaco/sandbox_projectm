@@ -5,4 +5,22 @@
 
 
 html {}
-body {}
+body {
+	padding: 20px;
+	font-family: Arial;
+	color: #444;
+    background: #eee;
+}
+
+
+#Container .mix{
+    display: none;
+}
+
+.mix {
+    display: inline-block;
+    background: #ccc;
+    border: $borderWidth solid #fff;
+    border-radius: $borderRadius;
+    padding: 0.5em;
+}
